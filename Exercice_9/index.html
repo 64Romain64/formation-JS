@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaire de contact</title>
+</head>
+
+<body>
+    <h1>Formulaire de contact</h1>
+    <form>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required>
+
+        <label for="telephone">Téléphone :</label>
+        <input type="tel" id="telephone" name="telephone" placeholder="Votre Téléphone" required>
+        <span id="telephone-error"></span>
+
+        <label for="email">E-mail :</label>
+        <input type="email" id="email" name="email" placeholder="Votre E-mail" required>
+        <span id="email-error"></span>
+
+        <button type="submit">Envoyer</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
